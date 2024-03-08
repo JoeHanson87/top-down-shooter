@@ -28,7 +28,7 @@ coin_imgs = import_folder("items/coin")
 #bullet_img = pygame.image.load("bullets/bluebullet.png").convert_alpha()
 bullet_img = pygame.image.load("bullet/0.png").convert_alpha()
 
-boundary_block_img = pygame.image.load("tileset/skyBlock.png").convert_alpha()
+boundary_block_img = pygame.image.load("tiles/separated/skyBlock.png").convert_alpha()
 
 # Sounds
 coin_sound = pygame.mixer.Sound("sounds/coin.wav")
